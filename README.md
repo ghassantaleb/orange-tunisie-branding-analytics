@@ -50,7 +50,7 @@ Unlike e-commerce setups, Orange's campaigns are branding-focused, requiring spe
 |---------------|---------------|---------------|------|----------|---------------|
 | Traffic       | CTR            | Random Forest | 0.2688 | 0.7386 | Good performance |
 | Engagement    | Post Engagement | Tuned XGBoost | 0.8101 | 0.6821 | Reasonable |
-| Video Views   | 3-Second Plays, Video Plays | Ridge Regression | 0.3443–0.5009 | 0.8580–0.9282 | Very good |
+| Video Views   | 3-Second Plays, Video Plays | Random Forest | 0.1207–0.1381 | 0.9912–0.9892 | Very good |
 | Awareness     | Reach, Impressions | Random Forest | 0.1166–0.2147 | 0.9648–0.9855 | Outstanding |
 | App Installs  | App Installs | XGBoost | 0.7490 | 0.8946 | Good, but data limited |
 
