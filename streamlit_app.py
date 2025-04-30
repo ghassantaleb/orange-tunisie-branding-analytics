@@ -23,7 +23,7 @@ MODEL_CONFIG = {
         "target": "Post Engagements"
     },
     "Video": {
-        "model_path": "models/rf_video_model.joblib",
+        "model_path": "models/rf_video_engagement_model.joblib",
         "features_path": "models/video_model_features.pkl",
         "target": "3s Views & Video Plays"
     },
