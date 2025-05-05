@@ -8,11 +8,6 @@ import plotly.graph_objects as go
 # MODEL CONFIGURATION
 # ------------------------
 MODEL_CONFIG = {
-    "Traffic": {
-        "model_path": "models/rf_ctr_traffic_model.joblib",
-        "features_path": "models/traffic_model_features.pkl",
-        "target": "CTR (%)"
-    },
     "Awareness": {
         "model_path": "models/rf_awareness_reach_impressions_model.joblib",
         "features_path": "models/awareness_model_features.pkl",
@@ -23,16 +18,12 @@ MODEL_CONFIG = {
         "features_path": "models/engagement_model_features.pkl",
         "target": "Post Engagements"
     },
-    "Video": {
+    "Traffic": {
         "model_path": "models/rf_video_engagement_model.joblib",
         "features_path": "models/video_model_features.pkl",
         "target": "3s Views & Video Plays"
-    },
-    "App Installs": {
-        "model_path": "models/xgb_app_installs_model.joblib",
-        "features_path": "models/app_installs_model_features.pkl",
-        "target": "App Installs"
     }
+
 }
 
 # ------------------------
